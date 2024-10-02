@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "imageSrc": "./public/images/corolla.png",
+        "name": "Corolla",
+        "modelo": "Sedan Médio",
+        "transmissao": "Automático",
+        "valor": "93,00",
+        "bagagem": "460 Litros"
+
+    },
+    {
+        "id": 2,
+        "imageSrc": "./public/images/onix.png",
+        "name": "GM Onix",
+        "modelo": "Hatch Médio",
+        "transmissao": "Automático",
+        "valor": "77,00",
+        "bagagem": "320 Litros"
+
+    },
+    {
+        "id": 3,
+        "imageSrc": "./public/images/mobi.png",
+        "name": "Fiat Mobi",
+        "modelo": "Hatch Compacto",
+        "transmissao": "Manual",
+        "valor": "56,00",
+        "bagagem": "120 Litros"
+
+    },
+    {
+        "id": 4,
+        "imageSrc": "./public/images/nivus.png",
+        "name": "VW Nivus",
+        "modelo": "SUV",
+        "transmissao": "Automático",
+        "valor": "122,00",
+        "bagagem": "460 Litros"
+
+    }
+]

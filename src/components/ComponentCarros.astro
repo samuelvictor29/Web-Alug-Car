@@ -1,0 +1,41 @@
+---
+import carros from "../data/carros.json";
+
+---
+{
+    carros.map((carro) => (
+    <div class="foto">
+        <img src={carro.imageSrc} />
+    </div>
+    <div class="conteudo">
+        <div class="cima">
+            <div class="nome-carro">
+                <h3>{carro.name}</h3>
+                <p>{carro.modelo}</p>
+            </div>
+            <div class="valor-diario">
+                <h4>{carro.valor}</h4>
+                <p>valor diário</p>
+            </div>
+            <div class="diarias">
+                <h4>1</h4>
+                <p>dia(s)</p>
+            </div>
+            <div class="valor-total">
+                <h4>{carro.valor}</h4>
+                <p>Valor total</p>
+            </div><p>valor diário</p>
+            <div class="valor-total">
+                <h4>R$ 93,00</h4>
+                <p>Valor total</p>
+            </div>
+        </div>  
+        <div class="baixo">
+            
+        </div>
+    </div>
+    ))
+
+    
+}
+
